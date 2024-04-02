@@ -1,0 +1,794 @@
+Question 1:Fix the bugs in below snippet
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+	
+**ANSWER**
+<html lang="en">
+<head>
+        <title>Document</title>
+           
+         <h1>guvi</h1>
+</head>
+    
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+            
+    <div>
+        Guvi Geek Network
+    </div>
+    </body>
+</html>
+
+***OUTPUT***
+Refer to the Question1_img_Console in current folder.
+
+----------------------------------------------------------------------------------------------------
+Question 2: Try the below one
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+	
+**ANSWER**
+
+<html lang="en">
+<head>
+        <title>Document</title>
+
+        <h1>guvi</h1>
+</head>
+    
+<body>
+            
+     <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+            
+    <div>
+        Guvi Geek Network
+    </div>
+        
+</body>
+    
+</html>
+
+***OUTPUT***
+Refer to the Question2_img_Console in current folder.
+
+-----------------------------------------------------------------------------------------------------
+Question 3: Design a contact us form with all fields as required.
+
+**ANSWER**
+
+HTML FILE HERE...,
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+<div class=" contact_container">
+        <h2 id="headcontact">Contact Us</h2>
+<br><br>
+    <form action="#" method="post">
+
+        <div class="details">
+        <label for="name">FirstName</label>
+        <input type="text" id="name" placeholder="Enter your Firstname" required>
+
+        <label for="name">LastName</label>
+        <input type="text" id="name" placeholder="Enter your LastName" required>
+
+        <label for="Email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="MobileNumber">MobileNumber</label>
+        <input type="tel" id="MobileNumber" placeholder="MobileNumber" pattern="[0-9]{10}" required>
+        <small>Note: 10 digits without spaces or dashes</small>
+    </div>
+    <br>
+        <label for="Message">Message</label>
+        <textarea name="Message" id="Message" placeholder="Message here..," rows="5"></textarea>
+
+        <input type="submit" value="SUBMIT">
+
+    </form>
+</div>
+    
+</body>
+</html>
+
+
+CSS FILE HERE...,
+
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body Styles */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(backgroundimg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/* Heading styles */
+#headcontact{
+    text-align: center;
+}
+
+/* Contact container styles */
+.contact_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 6px;
+    background-color: #04b1a3;
+}
+
+/* Label styles */
+label{
+    font-weight: bold;
+}
+
+/* Input Field styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit Button styles */
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover{
+    font-weight: bold;
+    background-color: black;
+}
+
+
+***OUTPUT***
+Refer to the Question3_img_Console in current folder.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Question 4: Use certain HTML elements to display the following in a HTML page.
+						Programming Language
+						JavaScript
+						Angular
+						React
+						Vue.js
+						Python
+						Django Framework
+						Flask Framework
+						Java
+						Spring
+						Maven
+						Hibernate
+						Database
+						MySQL
+						MongoDB
+						Cansandra
+						
+						
+**ANSWER**
+HTML FILE HERE.....,
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements</title>
+    <h1 style="text-align: center; color: red;">LIST OF ELEMENTS</h1>
+
+    
+</head>
+<body>
+    <br><br><br>
+    <li style="font-weight: bold; font-size: large;">Programming Language</li>
+
+<ul>
+
+<li style="list-style:circle;">JavaScript</li>
+<ol style="list-style-type:lower-alpha;">
+
+<li style="padding:5px;">Angular</li>
+<li style="padding:5px;">React</li>
+<li style="padding:5px;">Vue.js</li>
+
+</ol>
+<br>
+<li style="list-style:circle;">Python</li>
+<ol style="list-style-type: lower-alpha;">
+
+<li style="padding:5px;">Django Framework</li>
+<li style="padding:5px;">Flask Framework</li>
+</ol>
+<br>
+<li style="list-style-type: circle; padding: 0px;">Java</li>
+<ol style="list-style-type: lower-alpha;">
+    <li style="padding:5px;">Spring</li>
+    <li style="padding:5px;">Maven</li>
+    <li style="padding:5px;">Hibernate</li>
+</ol>
+</ul>
+<br>
+<li style="font-weight: bold; font-size: large;">Database</li>
+<ol style="list-style-type: circle;">
+    <li style="padding:5px;">MySQL</li>
+    <li style="padding:5px;">MongoDB</li>
+    <li style="padding:5px;">Cansandra</li>
+</ol>
+
+</body>
+</html>
+
+***OUTPUT***
+Refer to the Question4_img_Console in current folder.
+
+----------------------------------------------------------------------------------------------------------------------
+
+Question 5: Create an element that helps you to open the https://google.com in separate new tab.
+
+
+HTML FILE HERE....,
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTabTask</title>
+    <style>
+.decotab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+}
+.submitab{
+    padding: 15px;
+}
+input[type="submit"]:hover{
+    font-weight: bold;
+    background-color: black;
+}
+input[value]:hover{
+    color: bisque;
+}
+</style>
+
+
+</head>
+<body>
+<form class="decotab"action=" https://google.com" target="_blank">
+<input class="submitab" type="submit" value="Click here to Enter New tab">
+
+</form>
+
+    
+</body>
+</html>
+
+***OUTPUT***
+Refer to the Question5_img_Console_1 and 2 in current folder.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Question 6: In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+HTML FILE HERE....,
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmployeeType</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    .toph2{
+        color: darkorchid;
+    }
+    .labelContainer{
+       width: 50%;
+       padding: 4px;
+       margin: 4px 0;
+       border: 2px solid;
+       border-radius: 5px;
+       box-sizing: border-box;
+    }
+
+    .submitsec{
+        padding: 10px;
+        border-radius: 10px ;
+    }
+
+    input[type="submit"]:hover{
+    font-weight: bold;
+    background-color: lightsteelblue;
+}
+    input value:hover{
+        color: white;
+        font-weight: bold;
+    }
+</style>
+
+
+<body>
+    <h2 class="toph2">Employee Type</h2>
+<form method="post">
+<div class="labelContainer"> 
+    <p style="height: 30px ;">Select Employee Type</p>
+  
+<label>
+<input type="radio" name="employeetype" value="salaried" required>Salaried</label>
+<br><br>
+<label>
+<input type="radio" name="employeetype" value="ownBusiness">OwnBusiness</label>
+</div> 
+<br>
+<input class="submitsec" type="submit" value="SUBMIT">
+
+</form>  
+    
+</body>
+</html>
+
+***OUTPUT***
+Refer to the Question6_img_Console_1 in current folder.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Question 8: Use the table tag to design given image Click here.
+
+HTML FILE HERE....,
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Chart</title>
+<!-- Linking to an external CSS file -->
+<link rel="stylesheet" href="./table.css">
+</head>
+<body>
+<!-- Heading for the page -->
+<h1 style="text-align: center;">Health Chart</h1>
+
+<table class="tabledesign">
+    <tr>
+    <!-- Table header cell spanning two rows -->
+        <th rowspan="2">State of Health</th>
+        <th colspan="2">Fasting Value</th>
+        <th colspan="2">After Eating</th>
+        
+    </tr>
+
+   
+    <tr>
+    <!-- Table header cell -->
+        <th>Minimum</th>
+        <th>Maximum</th>
+        <th>2 hours after eating</th>
+        
+    </tr>
+    <tr>
+    <!-- Table data cell -->
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+        
+        
+    </tr>
+    <tr>
+    <!-- Table data cell -->
+        <td>Pre-diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+        
+        
+    </tr>
+    <tr>
+    <!-- Table data cell -->
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>NA</td>
+        <td>More than 200</td>
+        
+        
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+CSS FILE HERE.....,
+
+/* Styling for the 'body' class */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(backnutri.jpg);
+    background-size: cover;
+    background-position: none;
+    background-repeat: repeat;
+}
+/* Styling for the 'tabledesign' class */
+.tabledesign {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+/* Styling for the 'th,td' class */
+th, td {
+    color: aliceblue;
+    background-color: black;
+    border: 2px solid lightcyan;
+    padding: 8px;
+    text-align: center;
+}
+/* Styling for the 'bottom content th' class */
+th {
+    background-color: darkcyan;
+}
+
+***OUTPUT***
+Refer to the Question8_img_Console_1 in current folder.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Question 9: Write HTML input tags snippet to show default values for all Form elements.
+
+HTML FILE HERE.......,
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Default Form Values</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<form class="formcontainer" action="#" method="post">
+  <div class="labelsection">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value="John Doe"><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="example@example.com"><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" value="password123"><br>
+
+  <label for="birthdate">Birthdate:</label><br>
+  <input type="date" id="birthdate" name="birthdate" value="2000-01-01"><br>
+
+  <label for="gender">Gender:</label><br>
+  <select id="gender" name="gender">
+    <option value="male" selected>Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4">This is a default message.</textarea><br>
+</div>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+
+CSS FILE HERE.....,
+
+/* Styles for form container */
+
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(backgroundimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.formcontainer{
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styles for labels */
+  .labelsection {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Styles for input fields and textarea */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  }
+  
+  /* Styles for submit button */
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for submit button */
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  
+  
+***OUTPUT***
+Refer to the Question9_img_Console_1 in current folder.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 10: In your, HTML page add the below line and Highlight it without using any CSS.
+			"HTML & CSS is awesome"
+			
+HTML FILE HERE...,
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HighLighted text Without CSS</title>
+</head>
+<body>
+    <p><mark>HTML & CSS is awesome</mark></p>
+    
+</body>
+</html>
+
+***OUTPUT***
+Refer to the Question10_img_Console_1 in current folder.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 11: Create an HTML page, which should contain all types of input elements.
+
+HTML FILE HERE......,
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Input Elements</title>
+<link rel="stylesheet" href="./formstyle.css">
+</head>
+<body>
+
+<form class="formsection">
+
+<div class="headelement"> 
+  <h1>INPUT ELEMENTS</h1>
+  <hr>
+</div>
+
+<div class="labelsection">
+  <label for="text">Text Input</label><br>
+  <input type="text" id="text" placeholder="Enter your text"><br><br>
+
+  <label for="password">Password Input</label><br>
+  <input type="password" id="password" placeholder="Enter your password"><br><br>
+
+  <label for="email">Email Input</label><br>
+  <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+  <label for="number">Number Input</label><br>
+  <input type="number" id="number" placeholder="Enter the number"><br><br>
+
+  <label for="date">Date Input</label><br>
+  <input type="date" id="date" placeholder="Select the Date"><br><br>
+
+  <label for="checkbox">Checkbox</label>
+  <input type="checkbox" id="checkbox" placeholder="checkbox"><br><br><br>
+
+  <label for="radio1">Radio Button 1</label>
+  <input type="radio" id="radio1" name="radio" value="radio1"><br>
+  
+  
+  <label for="radio2">Radio Button 2</label>
+  <input type="radio" id="radio2" name="radio" value="radio2">
+  <br><br><br>
+
+  <label for="select">Select Any one</label><br>
+  <select id="select" name="select">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select><br><br>
+
+  <label for="textarea">Textarea</label><br>
+  <textarea id="textarea" placeholder="Message here" rows="4" cols="50"></textarea><br><br>
+
+  <label for="file">File Input</label><br>
+  <input type="file" id="file" name="file"><br><br>
+
+</div>
+
+<div class="submitcontainer">
+  <input type="submit" value="Submit">
+</div>
+
+</form>
+
+</body>
+</html>
+
+CSS FILE HERE....,
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(formbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  .headelement{
+    text-align: center;
+    color: royalblue;
+}
+  
+  .formsection {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+  .labelsection {
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  .submitcontainer{
+    text-align: center;
+  }
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  input[type="submit"]:hover {
+    background-color: darkred;
+  }
+  
+***OUTPUT***
+Refer to the Question11_img_Console_1 and 2 in current folder.
+
+
+
+
+
+************************************************************************END OF FILE***************************************************************************************************
+
+
+
+
+	
+
